@@ -25,7 +25,7 @@ SECRET_KEY = 'h_lkv(ji^kee)ea@&=5%x=&18vw1m8e3+m1yz9p$$t+=j8939f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','uncoveredmyth.pythonanywhere.com']
 
 
 # Application definition

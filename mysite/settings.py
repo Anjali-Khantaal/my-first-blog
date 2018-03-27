@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'h_lkv(ji^kee)ea@&=5%x=&18vw1m8e3+m1yz9p$$t+=j8939f'
+SECRET_KEY = '=p8$221f4ol%rn1f+x9k(eq8su()!jf0)gdvzo%gcj&l+29#&f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','uncoveredmyth.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
 
 
 # Application definition
@@ -68,6 +68,7 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
@@ -106,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kolkata'
+TIME_ZONE = 'Europe/Berlin'
 
 USE_I18N = True
 
@@ -119,4 +120,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
